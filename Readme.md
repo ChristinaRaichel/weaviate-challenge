@@ -24,8 +24,6 @@ This is a RAG implementation, involving vector search for task-based 'python cod
 
 Flow diagram for CODEGEN-RAG:
 
-<img src="flowchart.png" width="300" height="300">
-
 ```mermaid
 flowchart TD
     A[query] -->|HTTPrequest| B(fa:fa-server frontend server:3000 reactjs,tailwindCSS)
@@ -53,9 +51,9 @@ The project includes `backend` and `frontend` folders. The backend relies on Pyt
 
 Frontend UI screenshots
 
-<img src="CODEGEN_search_page.png" width="2000" height="300">
+<img src="CODEGEN_search_page.png" width="1753" height="853">
 
 
 
-<img src="CODEGEN_search_page-2.png" width="2000" height="300">
+<img src="CODEGEN_search_page-2.png" width="1753" height="853">
 
