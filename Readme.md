@@ -24,7 +24,18 @@ This is a RAG implementation, involving vector search for task-based 'python cod
 
 Flow diagram for CODEGEN-RAG:
 
-<img src="flowchart.png" width="250" height="300">
+<img src="flowchart.png" width="300" height="300">
+
+```mermaid
+flowchart TD
+    A[query] -->|HTTPrequest| B(fa:fa-server frontend server:3000 reactjs,tailwindCSS)
+    B --> |POST request via axios| C(fa:fa-server backend server:8000 django-restframework, python)
+    C -->|query| D(fa:fa-database  Weaviate VectorDB)
+    D --> |query|E(Cohere API)
+    E --> |explanations| D
+    D --> |codes + explanations| C
+    C --> B
+```
 
 #### Vector Search Implementation
 
