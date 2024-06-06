@@ -1,29 +1,48 @@
-This repository contains the codes for the following  weaviate projects: 
-1. CODEGEN-RAG: A full stack RAG project for generating python codes and explanations using vector search and generative search.
-  
-2. LinkedIN ML/AI jobs : The analytics pipeline
+# Weaviate MLE Challenges Repository
 
-3. CODEGEN_Weaviate_workflow.ipynb: The Weaviate workflow for CODEGEN that involves processing of the dataset and populating the Weaviate database.
+This repository contains the codes for the Weaviate MLE challenges 1, 2.1, and 2.2:
 
+## 1. **Weaviate Workflow**
+- **Notebook**: `CODEGEN_Weaviate_workflow.ipynb`
+- **Description**: This notebook contains the Weaviate workflow for CODEGEN-RAG, involving the processing of the dataset and populating the Weaviate database.
 
-In detail:
-1. CODEGEN-RAG
-   
-The project works using vector search for python codes and by generating explanations and pseudocodes for the codes produced by the vector search.
+## 2.1 **CODEGEN-RAG**
+- **Description**: A full-stack RAG project for generating Python codes and explanations using vector search and generative search.
+- **Dataset**: [python-codes-25k](https://huggingface.co/datasets/flytech/python-codes-25k)
 
-
-The vector search is done by initially populating the weaviate vector database runing on a sandbox instance on Weaviate Cloud (WCD) [https://weaviate.io/developers/weaviate/quickstart] with modulated data from the flytech/python-codes-25k database [https://huggingface.co/datasets/flytech/python-codes-25k]
-
-
-For the RAG implementation, Cohere based Generative Search module is used [https://weaviate.io/developers/weaviate/modules/reader-generator-modules/generative-cohere]
+## 2.2 **LinkedIn ML Pipeline**
+- **Description**: The analytics pipeline for challenge 2.2 based on the Kaggle dataset.
+- **Dataset**: [LinkedIn Job Postings](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings)
 
 
-The project includes backend and frontend folders. The backend relies on python and django rest framework. The frontend is based on Reactjs, tailwindCSS and axios as the mediator between the frontend and backend parts. In addition, prismjs is used for syntax highlighting python code outputs in the webpage.
+
+## More Details on 2.1
+
+### 2.1 **CODEGEN-RAG**
+
+This is a RAG implementation, involving vector search for task-based 'python codes' from the vector database and the generative search of explanations and pseudocodes for the obtained codes using Cohere API.
+
+Flow diagram for CODEGEN-RAG:
+
+![flowchart](flowchart.png)
+
+#### Vector Search Implementation
+
+The vector search is done by initially populating the Weaviate vector database running on a sandbox instance on Weaviate Cloud (WCD). You can find more information and get started with Weaviate using the following link: [Weaviate Quickstart](https://weaviate.io/developers/weaviate/quickstart).
+
+The data used for this is modulated from the `flytech/python-codes-25k` database, which is available on Hugging Face: [flytech/python-codes-25k](https://huggingface.co/datasets/flytech/python-codes-25k).
+
+
+#### RAG Implementation
+
+For the RAG implementation, the Cohere-based Generative Search module is used. You can find more information [here](https://weaviate.io/developers/weaviate/modules/reader-generator-modules/generative-cohere).
+
+
+The project includes `backend` and `frontend` folders. The backend relies on Python and Django Rest Framework. The frontend is based on React.js, Tailwind CSS, and Axios as the mediator between the frontend and backend parts. In addition, Prism.js is used for syntax highlighting Python code outputs in the webpage.
+
+Frontend UI screenshots
 
 ![screen-1](CODEGEN_search_page.png)
 
 ![screen-2](CODEGEN_search_page-2.png)
 
-Flow diagram for CODEGEN:
-
-![flowchart](flowchart.png)
