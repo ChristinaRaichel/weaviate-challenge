@@ -51,9 +51,9 @@ The project includes `backend` and `frontend` folders. The backend relies on Pyt
 
 Frontend UI screenshots
 
-<kbd><img src="CODEGEN_search_page.png" width="2500" height="853"></kbd>
+<kbd><img src="CODEGEN_search_page.png"></kbd>
 
 
 
-<kbd><img src="CODEGEN_search_page-2.png" width="2500" height="853"></kbd>
+<kbd><img src="CODEGEN_search_page-2.png"></kbd>
 
