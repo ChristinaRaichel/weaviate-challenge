@@ -24,7 +24,7 @@ This is a RAG implementation, involving vector search for task-based 'python cod
 
 Flow diagram for CODEGEN-RAG:
 
-![flowchart](flowchart.png)
+<img src="flowchart.png" width="250" height="300">
 
 #### Vector Search Implementation
 
@@ -42,7 +42,9 @@ The project includes `backend` and `frontend` folders. The backend relies on Pyt
 
 Frontend UI screenshots
 
-![screen-1](CODEGEN_search_page.png)
+<img src="CODEGEN_search_page.png" width="2000" height="300">
 
-![screen-2](CODEGEN_search_page-2.png)
+
+
+<img src="CODEGEN_search_page-2.png" width="2000" height="300">
 
