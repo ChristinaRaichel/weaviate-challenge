@@ -3,16 +3,19 @@
 This repository contains the codes for the Weaviate MLE challenges 1, 2.1, and 2.2:
 
 ## 1. **Weaviate Workflow**
-- **Notebook**: `CODEGEN_Weaviate_workflow.ipynb`
+- **Notebook**: `weaviate-project-1/CODEGEN_Weaviate_workflow.ipynb`
 - **Description**: This notebook contains the Weaviate workflow for CODEGEN-RAG, involving the processing of the dataset and populating the Weaviate database.
 
 ## 2.1 **CODEGEN-RAG**
 - **Description**: A full-stack RAG project for generating Python codes and explanations using vector search and generative search.
 - **Dataset**: [python-codes-25k](https://huggingface.co/datasets/flytech/python-codes-25k)
+- **Location**: `frontend`, `backend`
 
 ## 2.2 **Linkedin ML Pipeline**
+- **Notebook**: `weaviate-project-2.2/Linkedin_analytics_pipeline.ipynb`
 - **Description**: The analytics pipeline for challenge 2.2 based on the Kaggle dataset.
 - **Dataset**: [LinkedIn Job Postings](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings)
+
 
 
 
