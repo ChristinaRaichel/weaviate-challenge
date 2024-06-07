@@ -10,7 +10,7 @@ This repository contains the codes for the Weaviate MLE challenges 1, 2.1, and 2
 - **Description**: A full-stack RAG project for generating Python codes and explanations using vector search and generative search.
 - **Dataset**: [python-codes-25k](https://huggingface.co/datasets/flytech/python-codes-25k)
 
-## 2.2 **LinkedIn ML Pipeline**
+## 2.2 **Linkedin ML Pipeline**
 - **Description**: The analytics pipeline for challenge 2.2 based on the Kaggle dataset.
 - **Dataset**: [LinkedIn Job Postings](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings)
 
