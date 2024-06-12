@@ -19,3 +19,6 @@ ouput: modified json
 
 ![Django test server](Django-test.png)
 
+To run test server:
+$cd backend-test/backend
+$docker compose up --build
