@@ -12,7 +12,7 @@ class queryVectorDB():
     """ 
     def __init__(self):
         self.client = self.start()
-        self.classname = 'CodeDocv28'
+        self.classname = 'CodeGENFinal'
 
     def start(self):
         
