@@ -1,0 +1,12 @@
+version: '3'
+services:
+  
+  web0:
+    build: .
+    command: python3 vectorsearch/manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    
+
+    tty: true
+
